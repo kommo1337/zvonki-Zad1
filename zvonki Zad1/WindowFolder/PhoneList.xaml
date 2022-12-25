@@ -1,0 +1,24 @@
+﻿<Window x:Class="zvonki_Zad1.WindowFolder.PhoneList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zvonki_Zad1.WindowFolder"
+        mc:Ignorable="d"
+        Title="PhoneList" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid x:Name="callDataGrid" AutoGenerateColumns="False" Margin="200,94,200,217" MouseLeftButtonDown="callDataGrid_MouseLeftButtonDown" MouseRightButtonDown="callDataGrid_MouseRightButtonDown">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="UserWhoZvon" Binding="{Binding UserWhoZvon}" />
+                <DataGridTextColumn Header="Login" Binding="{Binding Login}" />
+                <DataGridTextColumn Header="Password" Binding="{Binding Password}" />
+                <DataGridTextColumn Header="ZvonokDlinna" Binding="{Binding ZvonokDlinna}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="userComboBox"  Margin="276,287,276,95" SelectionChanged="userComboBox_SelectionChanged"  />
+        <Button Content="delete" HorizontalAlignment="Left" Margin="50,110,0,0" VerticalAlignment="Top" Height="58" Width="89" Click="Button_Click_1" />
+        <Button Content="add" HorizontalAlignment="Left" Margin="50,233,0,0" VerticalAlignment="Top" Height="38" Width="89" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="zvonki_Zad1.WindowFolder.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zvonki_Zad1.WindowFolder"
+        mc:Ignorable="d"
+        Title="AddWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="188,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="ktozvon"/>
+        <TextBox HorizontalAlignment="Left" Margin="188,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="dlinnaa"/>
+        <TextBox HorizontalAlignment="Left" Margin="188,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="pass"/>
+        <TextBox HorizontalAlignment="Left" Margin="188,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="login"/>
+        <Button Content="add" HorizontalAlignment="Left" Margin="533,328,0,0" VerticalAlignment="Top" Height="54" Width="127" Click="Button_Click"/>
+        <Button Content="back" HorizontalAlignment="Left" Margin="596,67,0,0" VerticalAlignment="Top" Height="62" Width="129" Click="BackButton_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="93,120,0,0" TextWrapping="Wrap" Text="ktozvon" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="93,293,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="93,241,0,0" TextWrapping="Wrap" Text="pass" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="93,179,0,0" TextWrapping="Wrap" Text="dlinnaa" VerticalAlignment="Top" />
+    </Grid>
+</Window>

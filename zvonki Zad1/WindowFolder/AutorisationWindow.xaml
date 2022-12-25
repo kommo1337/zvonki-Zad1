@@ -1,0 +1,17 @@
+﻿<Window x:Class="zvonki_Zad1.WindowFolder.AutorisationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zvonki_Zad1.WindowFolder"
+        mc:Ignorable="d"
+        Title="AutorisationWindow" Height="450" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Авторизация" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="40" Width="154" FontWeight="Bold" FontFamily="Franklin Gothic Demi" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="126,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" Height="50" x:Name="LoginTb"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="206" Height="50" Margin="126,0,0,0" x:Name="PasswordTb"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Center" Height="30" Width="64"/>
+        <Label Content="логин" HorizontalAlignment="Left" Margin="45,134,0,0" VerticalAlignment="Top" Height="30" Width="64"/>
+        <Button Content="авторизация" HorizontalAlignment="Left" Margin="126,319,0,0" VerticalAlignment="Top" Height="51" Width="162" Click="Button_Click"/>
+    </Grid>
+</Window>
